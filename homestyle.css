@@ -1,0 +1,65 @@
+body { 
+    background: linear-gradient(to top left, midnightblue 0%, black 120%);
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: calibri;
+    background-color: #333;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;   
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+h1 {
+    background: -webkit-linear-gradient(grey, darkgrey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+     font-family: "Arial Black", Gadget, sans-serif;
+     font-weight: bolder;
+     font-size: 80px;
+    padding: 0;
+    }
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%   
+    padding: 0;
+}
+
+h2 {
+   font-size: 26pt;
+    font-family: calibri;
+    font-style: italic;
+        color: #ECECEC;    
+}
+
+p{
+    color: #ECECEC;
+    font-size: 16pt;
+    font-family: calibri;
+}
+
+
